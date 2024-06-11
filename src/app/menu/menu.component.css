@@ -1,0 +1,17 @@
+/* src/app/menu/menu.component.css */
+nav {
+    background: #eee;
+    padding: 1em;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 1em;
+  }
+  nav ul li a {
+    text-decoration: none;
+  }
+  

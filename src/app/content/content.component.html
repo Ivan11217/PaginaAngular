@@ -1,0 +1,11 @@
+<!-- src/app/content/content.component.html -->
+<div class="content">
+    <h1>Contenido para {{ ruta }}</h1>
+    <!-- Ejemplo de contenido basado en la ruta -->
+    <p *ngIf="ruta === 'inicio'">Bienvenido a la página de inicio.</p>
+    <p *ngIf="ruta === 'nosotros'">Acerca de nosotros.</p>
+    <p *ngIf="ruta === 'servicios'">Nuestros servicios.</p>
+    <p *ngIf="ruta === 'contacto'">Información de contacto.</p>
+  </div>
+  
+  
